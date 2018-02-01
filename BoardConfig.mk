@@ -102,6 +102,7 @@ TARGET_AUX_OS_VARIANT_LIST := angler
 
 TARGET_RECOVERY_FSTAB = device/huawei/angler/fstab.angler
 TARGET_COPY_OUT_VENDOR := vendor
+BOARD_USES_VENDORIMAGE := true
 TARGET_RELEASETOOLS_EXTENSIONS := device/huawei/angler
 
 BOARD_SEPOLICY_DIRS += \
